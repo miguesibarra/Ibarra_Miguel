@@ -1,0 +1,300 @@
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+ Cars  'Diario de una pasion'  'El hexorcista'  'Smooth criminal'
+
+./Peliculas/Comedia:
+ IT   Madasgaskar  'Mision imposible'  'Orgullo y prejuicio'
+
+./Peliculas/Infantiles:
+'Eljuego del miedo'   Intenzamente  'Rapido y furioso'   Titanic
+
+./Peliculas/Romanticas:
+ Annabelle  'La mascara'  'Los vengadores'   Pocahontas
+
+./Peliculas/Terror:
+'La dama y el bagavundo'  'Que paso ayer'  'We will rock you'  'yo antes de ti'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "Que paso ayer" ../Comedia
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "La dama y el bagabundo" "La dama y el vagabundo"
+mv: cannot stat 'La dama y el bagabundo': No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "La dama y el bagavundo" "La dama y el vagabundo"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "La dama y el vagabundo" ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "yo antes de ti" ../Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "we will rock you" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv "La mascara" ../Comedia
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv "Los vengadores" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv "Pocahontas" ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv "Anabelle" ../Terror
+mv: cannot stat 'Anabelle': No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv Annabelle Anabelle
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ mv "Anabelle" ../Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Romanticas
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv "Titanic" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv "Eljuego del miedo" "El Juego del Miedo"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv "El Juego del Miedo" ../Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv Intenzamente Intensamente
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv Intensamente ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv "Rapido y Furioso" "Rapidos y Furiosos"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv Rapidos y Furiosos ../Accion
+mv: cannot stat 'Rapidos': No such file or directory
+mv: cannot stat 'y': No such file or directory
+mv: cannot stat 'Furiosos': No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv "Rapidos y Furiosos" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Comedia
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv "IT" "ET"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv ET ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv "Madagaskar" "Madagascar"
+mv: cannot stat 'Madagaskar': No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv Madasgaskar Madagascar
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv "Madagascar" ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv "Mision imposible" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ mv "Orgullo y prejuicio" ../Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Comedia
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv Cars ../Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv "Diario de una pasion" ../Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv "El hexorcista" "El Exorcista"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv "El Exorcista" ../Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv Titanic ../Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+'Los vengadores'  'Mision imposible'  'Orgullo y prejuicio'  'Rapidos y Furiosos'  'Smooth criminal'  'we will rock you'
+
+./Comedia:
+'La mascara'  'Que paso ayer'
+
+./Infantiles:
+ Cars   ET   Intensamente  'La dama y el vagabundo'   Madagascar   Pocahontas
+
+./Romanticas:
+'Diario de una pasion'   Titanic  'yo antes de ti'
+
+./Terror:
+ Anabelle  'El Exorcista'  'El Juego del Miedo'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv "Orgullo y prejuicio" ../Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ sl -R
+bash: sl: command not found
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+'Los vengadores'  'Mision imposible'  'Rapidos y Furiosos'  'Smooth criminal'  'we will rock you'
+
+./Comedia:
+'La mascara'  'Que paso ayer'
+
+./Infantiles:
+ Cars   ET   Intensamente  'La dama y el vagabundo'   Madagascar   Pocahontas
+
+./Romanticas:
+'Diario de una pasion'  'Orgullo y prejuicio'   Titanic  'yo antes de ti'
+
+./Terror:
+ Anabelle  'El Exorcista'  'El Juego del Miedo'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ rm "Smooth criminal"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ rm "we will rock you"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cs ..
+bash: cs: command not found
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ ls -R
+.:
+'Los vengadores'  'Mision imposible'  'Rapidos y Furiosos'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..}
+bash: cd: ..}: No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+'Los vengadores'  'Mision imposible'  'Rapidos y Furiosos'
+
+./Comedia:
+'La mascara'  'Que paso ayer'
+
+./Infantiles:
+ Cars   ET   Intensamente  'La dama y el vagabundo'   Madagascar   Pocahontas
+
+./Romanticas:
+'Diario de una pasion'  'Orgullo y prejuicio'   Titanic  'yo antes de ti'
+
+./Terror:
+ Anabelle  'El Exorcista'  'El Juego del Miedo'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv ET IT
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ mv IT ../Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+'Los vengadores'  'Mision imposible'  'Rapidos y Furiosos'
+
+./Comedia:
+'La mascara'  'Que paso ayer'
+
+./Infantiles:
+ Cars   Intensamente  'La dama y el vagabundo'   Madagascar   Pocahontas
+
+./Romanticas:
+'Diario de una pasion'  'Orgullo y prejuicio'   Titanic  'yo antes de ti'
+
+./Terror:
+ Anabelle  'El Exorcista'  'El Juego del Miedo'   IT
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop
+$ touch "BASHRECORD_Ibarra-Miguel-Camada2-Parte2.txt"
+
+migue@MiguelPC MINGW64 ~/Desktop
+$

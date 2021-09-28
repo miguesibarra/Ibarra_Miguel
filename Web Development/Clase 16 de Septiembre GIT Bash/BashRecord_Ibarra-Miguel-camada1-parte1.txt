@@ -1,0 +1,146 @@
+
+migue@MiguelPC MINGW64 ~/Desktop
+$ mkdir DH
+
+migue@MiguelPC MINGW64 ~/Desktop
+$ cd DH
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mkdir Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ CD Infantiles
+bash: CD: command not found
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Infantiles
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Infantiles
+$ touch Intenzamente "Eljuego del miedo" "Rapido y furioso" Titanic
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Infantiles
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Accion
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Accion
+$ touch "Smooth criminal" "Diario de una pasion" "El hexorcista" Cars
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Accion
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Terror
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Terror
+$ touch "La dama y el bagavundo" "yo antes de ti" "Que paso ayer" "We will rock you"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Terror
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Comedia
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Comedia
+$ touch "Madasgaskar" "Orgullo y prejuicio" IT "Mision imposible"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Comedia
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Romantica
+bash: cd: Romantica: No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Romantica
+bash: cd: Romantica: No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Romanticas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Romanticas
+$ touch Pocahontas Annabelle "Los vengadores" "La mascara"
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Romanticas
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mkdir peliculas
+mkdir: cannot create directory ‘peliculas’: File exists
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Peliculas/  Romanticas/  Terror/
+
+./Accion:
+ Cars  'Diario de una pasion'  'El hexorcista'  'Smooth criminal'
+
+./Comedia:
+ IT   Madasgaskar  'Mision imposible'  'Orgullo y prejuicio'
+
+./Infantiles:
+'Eljuego del miedo'   Intenzamente  'Rapido y furioso'   Titanic
+
+./Peliculas:
+
+./Romanticas:
+ Annabelle  'La mascara'  'Los vengadores'   Pocahontas
+
+./Terror:
+'La dama y el bagavundo'  'Que paso ayer'  'We will rock you'  'yo antes de ti'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mv Accion Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mv Comedia Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mv Infantiles Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mv Romanticas Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ mv Terror Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd Peliculas
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls .R
+ls: cannot access '.R': No such file or directory
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars  'Diario de una pasion'  'El hexorcista'  'Smooth criminal'
+
+./Comedia:
+ IT   Madasgaskar  'Mision imposible'  'Orgullo y prejuicio'
+
+./Infantiles:
+'Eljuego del miedo'   Intenzamente  'Rapido y furioso'   Titanic
+
+./Romanticas:
+ Annabelle  'La mascara'  'Los vengadores'   Pocahontas
+
+./Terror:
+'La dama y el bagavundo'  'Que paso ayer'  'We will rock you'  'yo antes de ti'
+
+migue@MiguelPC MINGW64 ~/Desktop/DH/Peliculas
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop/DH
+$ cd ..
+
+migue@MiguelPC MINGW64 ~/Desktop
+$ touch "BashRecord_Ibarra-Miguel-camada1-parte1.txt"
