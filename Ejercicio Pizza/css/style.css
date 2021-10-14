@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {padding: 0px; margin: 0px;}
+
+.header {
+    width: 1024px;
+    height: 100px;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo {
+display: flex;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row; 
+    color: white;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row; 
+    color: white;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+.Card1 {
+    width: 490px;
+    height: 350px;
+    margin: 15px;
+}
+
+.envio {
+    position: relative;
+    color: red;
+    bottom: 330px;
+    left: 50px;
+
+}
+
+.Card2 {
+    width: 490px;
+    height: 350px;
+}
