@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  margin: 30px auto;
+}
+p{
+  font-size: 2rem; /* 32px*/
+  text-align: justify;
+}
+span{
+  font-size: 1rem;
+}
+h1{
+  display: none;
+}
+/*
+  font-size: 16px
+  font-size: 1rem => 16px
+  font-size: 1em => 16px
+
+  height: 100vh => 100 viewport height
+  width: 100vw => 100 viewport width   20vw 
+
+*/
+/* @media [media-type print speech screen all ]  AND  ()*/
+
+@media screen and (min-width: 400px) and (orientation: landscape){
+    p{
+      font-size: 3rem; /*48px*/
+      background-color: yellow;
+    }
+}
+@media screen and (min-width: 1000px) {
+  p{
+    visibility: hidden;
+  }
+  h1{
+    display: block;
+  }
+}
+@media (prefers-color-scheme: dark){
+    p{
+      background-color: white;
+    }
+}
+
+@media print{
+  p{
+    font-size: 5rem; /*80px*/
+    font-weight: bold;
+    color: crimson;
+  }
+}
